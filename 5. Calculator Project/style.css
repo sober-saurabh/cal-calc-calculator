@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 100px;
+    font-family:Arial, Helvetica, sans-serif; 
+    background: linear-gradient(to right, rgba(89, 134, 107, 0.842), #60b0b6);
+}
+
+#heading{
+    display: block;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin: 25px 10px 15px 10px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    transform: translateY(-58px);
+    color: white;
+    margin: 0px;
+}
+
+.outlay{
+    min-width: 600px;
+    min-height: 490px;
+    /* max-height: ; */
+    background-color: #0e08086e;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.result-screen{
+    /* position: relative; */
+    margin: -35px 10px 10px 10px;
+    display: flex;
+    min-height: 90px;
+    max-width: 560px;
+    border: 1px solid #e4d6d4;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.651);
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 10px;
+}
+
+.input{
+    font-size: 2rem;
+}
+
+#btn-section{
+    display: grid;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.button{
+    /* position: relative; */
+    display: inline-flex;
+    width: 140px;
+    height: 50px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: -1px;
+    margin-bottom: 2px;
+    font-size: 1.6rem;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.button:hover , .button-0:hover{
+    background-color: rgb(255, 209, 154);
+    transition: all 0.2s ease-out;
+}
+
+.operators{
+    position: relative;
+    display: inline-flex;
+    width: 145px;
+    height: 50px;
+    border: 1px solid #f08d7e;
+    background-color: #c04343;
+    color: #fff;
+    margin: -1.1px;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.operators:hover{
+    background-color:rgb(196, 103, 103);
+    transition: all 0.2s ease-out;
+}
+
+.button-0{
+    position: relative;
+    display: inline-flex;
+    width: 284px;
+    height: 50px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: -1px;
+    margin-bottom: 2px;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
